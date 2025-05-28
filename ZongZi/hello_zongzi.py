@@ -49,7 +49,7 @@ class ZongZi:
         t.begin_fill()
         t.forward(120)
         t.left(75)
-        t.forward(100)
+        t.forward(102)
         t.circle(50,120)
         t.forward(95)
         t.left(75)
