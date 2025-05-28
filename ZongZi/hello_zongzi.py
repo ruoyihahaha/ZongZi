@@ -3,6 +3,16 @@ import time
 import pygame
 
 class ZongZi:
+    
+    def __init__(self):
+        t.speed(5)
+        t.screensize(512, 512, "white")
+        t.pencolor("black")
+        t.pensize(5)
+        t.penup()
+        t.goto(100, -100)
+        t.pendown()
+        
     #粽子主体
     def body(self):
         t.fillcolor("#82AE61")
